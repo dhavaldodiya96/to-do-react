@@ -1,0 +1,137 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.toDoName{
+  
+}
+
+.mainContainer{
+  border: 2px solid green;
+  width: 100%;
+  height: 1000px;
+  
+}
+.mainContainer h1{
+  display: flex;
+  justify-content: center;
+  /* border-bottom: 4px solid black; */
+  /* position: relative; */
+  
+}
+.addList{
+  width: 100px;
+  height: 45px;
+  margin-right: 18px;
+  border-radius: 20px;
+  margin-top: 40px;
+  border: 2px solid black;
+  font-weight: bold;
+  font-size: 16px;
+  background-color: aqua;
+}
+.addList:hover{
+  background-color: cadetblue;
+}
+.inputTextList{
+  width: 400px;
+  height: 40px;
+  margin-right: 18px;
+  border-radius: 20px;
+  padding-left: 20px;
+  margin-top: 40px;
+  border: 2px solid black;
+  font-weight: bold;
+  font-size: 16px;
+  background-color: aquamarine;
+}
+.inputDate{
+  width: 250px;
+  height: 40px;
+  margin-right: 18px;
+  padding-left: 20px;
+  border-radius: 20px;
+  margin-top: 40px;
+  border: 2px solid black;
+  font-weight: bold;
+  font-size: 16px;
+  background-color: aquamarine;
+}
+.input-container{
+  display: flex;
+  justify-content: center;
+  /* border: 2px solid green; */
+}
+.toDoListItem{
+  display: flex;
+  /* border: 2px solid green; */
+  width: 80%;
+  margin-left: 8%;
+  margin-top: 4%;
+  border-radius: 25px;
+  height: 40px;
+}
+.inputTaskData{
+  display: flex;
+}
+.inputNmae{
+  border: 1px solid green;
+  margin-left: 6px;
+  width: 530px;
+  display: flex;
+  /* justify-content: start; */
+  padding-top: 9px;
+  font-weight: bold;
+  padding-left: 20px;
+  border-radius: 25px;
+}
+.inputAddDate{
+  border: 1px solid green;
+  margin-left: 6px;
+  width: 170px;
+  display: flex;
+  /* justify-content: start; */
+  padding-top: 9px;
+  font-weight: bold;
+  padding-left: 20px;
+  border-radius: 25px;
+}
+.inputAddEndTime{
+  border: 1px solid green;
+  margin-left: 6px;
+  width: 170px;
+  display: flex;
+  /* justify-content: start; */
+  padding-top: 9px;
+  font-weight: bold;
+  padding-left: 20px;
+  border-radius: 25px;
+}
+.inputListRemove{
+   border: 1px solid green;
+  margin-left: 6px;
+  width: 100px;
+  display: flex;
+  /* justify-content: start; */
+  padding-top: 9px;
+  font-weight: bold;
+  padding-left: 20px;
+  border-radius: 25px;
+  background-color: rgb(246, 65, 65);
+  padding-top: 13px;
+}
+.inputListRemove:hover{
+  background-color: aqua;
+}
+
